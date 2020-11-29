@@ -1,12 +1,10 @@
-package com.example.sharedpreferences;
+package com.example.TicTacToe;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -84,9 +82,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return true;
 
         }
-        if(field[0][2].equals(field[1][1]) && field[0][2].equals(field[2][0])
+        if (field[0][2].equals(field[1][1]) && field[0][2].equals(field[2][0])
                 && !field[0][2].equals("")
-        ){
+            )
+        {
             return true;
 
         }

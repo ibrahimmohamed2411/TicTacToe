@@ -1,4 +1,4 @@
-package com.example.sharedpreferences;
+package com.example.TicTacToe;
 
 import org.junit.Test;
 
